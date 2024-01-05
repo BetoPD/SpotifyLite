@@ -19,12 +19,11 @@ export default function Login({ setToken }) {
     }
 
     setToken(token);
-    console.log(token);
-  }, []);
+  });
   const handleClick = () => {
     window.location.href = URL;
   };
-  
+
   return (
     <div className={styles.container}>
       <button className={styles.login} onClick={handleClick}>
