@@ -1,0 +1,30 @@
+/* Songcard.module.css */
+.card {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #282828; /* Spotify dark */
+    color: white;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1DB954; /* Spotify green */
+    color: white;
+    cursor: pointer;
+}

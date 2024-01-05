@@ -1,0 +1,54 @@
+.logOut {
+  background-color: #1db954; /* Spotify green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.logOut:hover {
+  background-color: #1ed760; /* Lighter green on hover */
+}
+
+.logOut:active {
+  background-color: #1aa34a; /* Darker green when active */
+}
+
+.logo {
+  width: 80px; /* Reduced width */
+  height: auto;
+}
+
+.navBar {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  background-color: #282828;
+}
+
+.container {
+  display: flex;
+  margin: 50px;
+  justify-content: space-around;
+  height: 600px;
+  background-color: green;
+}
+
+@media (max-width: 600px) {
+  .container {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+.content {
+  border: 1px solid black;
+  overflow: scroll;
+  margin: 10px;
+  padding: 5px;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  background-color: #1db954; /* Spotify green */
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.login:hover {
+  background-color: #1ed760; /* Lighter green on hover */
+}
+
+.login:active {
+  background-color: #1aa34a; /* Darker green when active */
+}
