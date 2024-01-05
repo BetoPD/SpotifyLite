@@ -36,4 +36,4 @@ For this project modular css was used, so for every component it is used a new c
 
 ## WEBSITE
 
-https://main--voluble-faloodeh-e6390b.netlify.app/
+https://spotifymin.netlify.app/
