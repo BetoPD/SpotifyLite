@@ -33,3 +33,7 @@ It holds all the endpoints for using the Spotify web app
 ### Styles
 
 For this project modular css was used, so for every component it is used a new css file.
+
+## WEBSITE
+
+https://main--voluble-faloodeh-e6390b.netlify.app/
