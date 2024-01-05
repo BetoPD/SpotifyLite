@@ -10,7 +10,7 @@ const SCOPES = [
 ];
 
 const END_POINT = "https://accounts.spotify.com/authorize?";
-const REDIRCT_URI = "http://localhost:3000";
+const REDIRCT_URI = "https://spotifymin.netlify.app/";
 const CLIENT_ID = "a7a78045a85148a5b3cf0dd8d583c50c";
 
 export const URL = `${END_POINT}client_id=${CLIENT_ID}&response_type=token&redirect_uri=${REDIRCT_URI}&scope=${SCOPES.join(
